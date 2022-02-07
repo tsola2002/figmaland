@@ -16,7 +16,9 @@
 } 
 
 .custom-shape-divider-bottom-1644225694 .shape-fill {
-    fill: #4A7DC0;
+ 
+    fill: url(#curve);
+    /* fill: linear-gradient(39.97deg, #00F3B9 0.79%, #2187FF 79.29%); */
 }
 
 body {
@@ -24,10 +26,21 @@ body {
 }
 
 .blue-bg {
-    background-color: #4A7DC0;
+    /* background: linear-gradient(39.97deg, #00F3B9 0.79%, #2187FF 79.29%); */
+    /* background-color: #4A7DC0; */
     /* min-height: 100vh; */
+}
+
+.blue2-bg{
+   color:  #2091f9;
 }
 
 #header {
     /* padding-top: 60px; */
+}
+
+/* Background Gradient */
+
+.blue-gradient {
+    background: linear-gradient(39.97deg, #00F3B9 0.79%, #2187FF 79.29%);
 }

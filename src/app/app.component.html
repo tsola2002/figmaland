@@ -1,6 +1,6 @@
 <section class="relative">
   <!-- HEADER SECTION -->
-  <header id="header" class="blue-bg min-h-screen pt-14">
+  <header id="header" class="min-h-200 pt-14 blue-gradient">
     <nav class="container mx-auto flex justify-start">
       <!-- App Logo -->
       <a class="text-3xl text-white-400 font-bold uppercase mr-4" href="index.html">
@@ -29,41 +29,53 @@
         </ul>
 
         <!-- subscription form -->
-        <form action="">
-          <div class="ml-3">
-          <input type="text" placeholder="Your Email" class=" p-3 rounded-2xl text-black focus:border-0">
-          <button class="block w-full ">Subscribe</button>
+        <form action="" class="w-full max-w-sm">
+          <div class="md:flex md:items-center">
+            <div class="md:w-2/3">
+              <input type="text" placeholder="Your Email" class="py-2 px-4  rounded-lg text-black focus:border-0">
+            </div>
+            <div class="md:w-1/3">
+              <button class="shadow focus:shadow-outline focus:outline-none blue2-bg py-2 px-4 rounded-xl bg-white">Subscribe</button>
+            </div>
           </div>
         </form>
-        <!-- Language Switcher -->
-        <ul class="flex flex-row ml-auto">
-          <li>
-            <a href="#">
-              <img
-                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAA1CAMAAACA7r40AAAA/FBMVEWyIjNPN2Y8O27///8/PnBOTXxycpY9PG9RUX5HR3dIR3dLSnlPTny4uMpWVYFFRHVwb5VlZIx7e52DgqOIh6aIiKc+PXBJSHhTUn9hYYqyIjReXohgX4lYV4Lr6/C2tcjPdYB0c5haWYRYV4Nra5GJiac+PW/FxdTHYG1RUH3eoajltbtOTXvty89BQHHg3+hSUX6GYoC6usyVlbFycZa7u8yUk6+sq8FCQXO0tMe1tMhiYYpMS3pDQnNvbpTExNN8fJ7GxdTGxtWCgqLHx9WXlrLXi5SYl7Kiobrg4Oiiorrn5u3n5+2jo7ukpLvw8PTx8fX09Pf19firqsC5sMNxAAAAAnRSTlPQ9qN1Xw4AAAGlSURBVHhe7ZXFiiRBFEVjznvp5W7t7j3u7m7//y8D1dAMGbnI4jW5KOpsgjibCxFcrrtVEmcBGAGQJHB98d3EgEM/ygsg/nwRAy15rxQ4Ywh3JQX49hVgKA/Ad1hDkkGTMSQJjGkOEmo133FmwAEQyl8FfSj3gFgkzjsQAw6AZ796AP2fGcDBS8/ZQ7ZQlJ2d+bEFqp6zhuh9Cf9/pDtKkTs04KBTD4jgx3eICOodoshz1p7M6UUAUQ+Ap2Pf2UMI5UBBX18/Ut7ZQ84Jui10QKsbcA7dt77jxIBDt+sxMNzrD4HL+rZS4Iw9iTZkCjRFmsBUHkcUOGMI7dkpKezuQsrprM3zR76zN572ekdBX623gaONJ0d5B5sGHAA1+QTwRQJgX2Q/7+w9GZGlDZKERpoxgkbDc8s0WscGSo+WGMiNVlgwWuFNjdafPsDe7wzg3RvP2UNCFGVtbX6EoOo7PhgoO1rGnswHiquB4mqgfIcxpBTGkNslMf2JVMAShRxXgJtUwBKFbFbAqicL4U4qYNWThXCHFbDqyUK4swpY9WQhXBX8A2rVjaQ6HWXmAAAAAElFTkSuQmCC"
-                alt="en" width="22" height="14" class="inline-block">
-              <span class="ml-1">English</span>
-            </a>
-          </li>
-          <li style="display: none;">
-            <a href="#">
-              <img
-                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABDBAMAAACYZb3pAAAAHlBMVEUpQqK2q8384OL3qa/tKTkAI5Wrt9z////5t7ztKTlzpJCAAAAABXRSTlP++vjs1BQWlgsAAAAxSURBVHgBYmRAA4yKaAJCAugqQgHtyzENAAAAAiD7pzaDr4MfRVEURVGU36IoipK5FLWNJ6UFusbWAAAAAElFTkSuQmCC"
-                alt="fr" width="22" height="14" class="inline-block">
-              <span class="ml-1">French</span>
-            </a>
-          </li>
-        </ul>
       </div>
       
     </nav>
+
+    <div class="relative">
+      <div class="container mx-auto px-10 py-24 text-center">
+        <h1 class="mb-7 text-xl">At your fingertips</h1>
+        <p class="text-5xl font-bold mb-10">Lightning fast prototyping</p>
+        <p class=" font-medium mb-20">Most calendars are designed for teams. Slate is designed for freelancers</p>
+        <button class="inline-block text-lg blue2-bg py-3 px-12 rounded-2xl bg-white font-bold">Try For Free</button>
+        <div class="relative">
+          <img class="absolute z-1 top-12 laptop" src="assets/img/Macbook-Pro.png" alt="logo">
+        </div>
+      </div>
+    </div>
   </header>
-  
-  <div class="custom-shape-divider-bottom-1644225694 relative bottom-0 left-0 w-full overflow-hidden leading-none">
+
+  <!-- CURVED GRADIENT -->
+  <!-- <div class="custom-shape-divider-bottom-1644225694 bottom-0 left-0 w-full leading-none relative">
     <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+      <defs>
+        <linearGradient id="curve" gradientTransform="rotate(120)">
+          <stop offset="0.79%" stop-color="#00f3b9" />
+          <stop offset="79.29%" stop-color="#2187ff"></stop>
+        </linearGradient>
+      </defs>
       <path
         d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
-        class="shape-fill"></path>
+        class="shape-fill">
+      </path>
     </svg>
-  </div>
+  </div>  -->
+ 
 </section>
+
+<section id="">
+  
+</section>
+
+
