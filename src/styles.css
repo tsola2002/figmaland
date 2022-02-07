@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-shape-divider-bottom-1644225694 {
+ 
+} 
+
+ .custom-shape-divider-bottom-1644225694 svg {
+    position: relative;
+    display: block;
+    width: calc(144% + 1.3px);
+    height: 248px;
+    transform: rotateY(180deg);
+} 
+
+.custom-shape-divider-bottom-1644225694 .shape-fill {
+    fill: #4A7DC0;
+}
+
+body {
+    font-family: 'Roboto';
+}
+
+.blue-bg {
+    background-color: #4A7DC0;
+    /* min-height: 100vh; */
+}
+
+#header {
+    /* padding-top: 60px; */
+}
