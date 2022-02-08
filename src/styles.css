@@ -10,7 +10,8 @@
  .custom-shape-divider-bottom-1644225694 svg {
     position: relative;
     display: block;
-    width: calc(144% + 1.3px);
+    /* width: calc(144% + 1.3px); */
+    width: calc(100% + 1.3px);
     height: 248px;
     transform: rotateY(180deg);
 } 
@@ -35,6 +36,14 @@ body {
    color:  #2091f9;
 }
 
+.black-text{
+    color: #252B42;
+}
+
+.black-text-2{
+    color: #374754;
+}
+
 #header {
     /* padding-top: 60px; */
 }
@@ -43,4 +52,8 @@ body {
 
 .blue-gradient {
     background: linear-gradient(39.97deg, #00F3B9 0.79%, #2187FF 79.29%);
+}
+
+.laptop {
+    z-index: 1;
 }
