@@ -36,6 +36,14 @@ body {
    color:  #2091f9;
 }
 
+.blue-bg {
+    background-color: #2091f9;
+}
+
+.black-bg{
+    background-color: #252b42;
+}
+
 .black-text{
     color: #252B42;
 }
